@@ -21,7 +21,7 @@ interface SocketData {
   customerId: string;
 }
 
-@WebSocketGateway({ cors: true })
+@WebSocketGateway({ cors: false })
 export class WebsocketGateway implements OnGatewayConnection {
   @WebSocketServer()
   private server: Server;
