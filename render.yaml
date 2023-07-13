@@ -40,10 +40,7 @@ services:
           name: mongo
           property: hostport
       - key: CLICKHOUSE_HOST
-        fromService:
-          type: pserv
-          name: clickhouse
-          property: hostport
+        value: http://clickhouse-442i:8123
       - key: REDIS_HOST
         fromService:
           type: redis
