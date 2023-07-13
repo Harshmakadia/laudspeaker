@@ -24,6 +24,8 @@ services:
           type: pserv
           name: clickhouse
           property: hostport
+      - key: HOST
+        value: https://laudspeaker-kosr.onrender.com
       - key: CH_MIGRATIONS_USER
         value: default
       - key: CH_MIGRATIONS_PASSWORD
