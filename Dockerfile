@@ -21,6 +21,8 @@ COPY --from=frontend_build /app/packages/client/package.json /app/
 COPY ./packages/server/package.json /app
 RUN npm install
 COPY . /app
+RUN echo "CLICKHOUSE_HOST: "
+RUN echo CLICKHOUSE_HOST
 RUN npm run build:server
 
 FROM node:16 As final
