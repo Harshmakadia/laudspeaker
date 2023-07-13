@@ -21,6 +21,7 @@ COPY --from=frontend_build /app/packages/client/package.json /app/
 COPY ./packages/server/package.json /app
 RUN npm install
 COPY . /app
+RUN CLICKHOUSE_HOST=http://clickhouse-442i:8123
 RUN echo "CLICKHOUSE_HOST: "
 RUN echo CLICKHOUSE_HOST
 RUN npm run build:server
