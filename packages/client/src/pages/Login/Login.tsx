@@ -64,7 +64,7 @@ const Login: FC<LoginProps> = ({ setShowWelcomeBanner }) => {
             alt="Laudspeaker"
           />
           <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
-            Sign in to your account
+            Sign in to your account pop
           </h2>
         </div>
 
@@ -154,7 +154,7 @@ const Login: FC<LoginProps> = ({ setShowWelcomeBanner }) => {
 
               <div className="mt-6 grid grid-cols-3 gap-3">
                 <div className="relative grayscale">
-                  <Tooltip content="coming soon">
+                  <Tooltip content="coming soon kl">
                     <a
                       href="#"
                       className="inline-flex w-full justify-center rounded-md border border-gray-300 bg-white py-2 px-4 text-sm font-medium text-gray-500 shadow-sm hover:bg-gray-50"
@@ -166,7 +166,7 @@ const Login: FC<LoginProps> = ({ setShowWelcomeBanner }) => {
                 </div>
 
                 <div className="relative grayscale">
-                  <Tooltip content="coming soon">
+                  <Tooltip content="coming soon kl">
                     <a
                       href="#"
                       className="inline-flex w-full justify-center rounded-md border border-gray-300 bg-white py-2 px-4 text-sm font-medium text-gray-500 shadow-sm hover:bg-gray-50"
