@@ -70,14 +70,14 @@ export default function ResponsiveDrawerBeta() {
       <div className="hidden lg:fixed lg:inset-y-0 lg:flex lg:w-64 lg:flex-col">
         {/* Sidebar component, swap this element with another sidebar if you like */}
         <div className="flex flex-grow flex-col overflow-y-auto bg-cyan-700 pt-5 pb-4">
-          <div className="flex flex-shrink-0 items-center px-4">
+          {/* <div className="flex flex-shrink-0 items-center px-4"> */}
             {/* src="https://tailwindui.com/img/logos/mark.svg?color=cyan&shade=300" */}
-            <img
+            {/* <img
               className="h-8 w-auto"
               src={LaudspeakerWhiteIcon}
               alt="Easywire logo"
-            />
-          </div>
+            /> */}
+          {/* </div> */}
           <nav
             className="mt-5 flex flex-1 flex-col divide-y divide-cyan-800 overflow-y-auto"
             aria-label="Sidebar"

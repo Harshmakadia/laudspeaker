@@ -1,6 +1,6 @@
 <svg width="110" height="154" xmlns="http://www.w3.org/2000/svg" fill="none">
 
- <g>
+ <!-- <g>
   <title>Layer 1</title>
   <ellipse id="svg_1" fill="black" ry="39.3761" rx="39.1963" cy="95.7798" cx="56.1462"/>
   <path id="svg_2" fill="white" d="m50.8493,73.4312c-10.5936,2.5541 -15.7138,12.4159 -16.9498,17.0275l5.2968,1.0642c1.2713,-8.0881 8.2984,-11.8838 11.653,-12.7706l0,-5.3211z"/>
@@ -15,5 +15,6 @@
   <ellipse id="svg_11" fill="black" ry="12.7706" rx="12.7123" cy="31.9266" cx="56.1462"/>
   <ellipse id="svg_12" fill="white" ry="4.25688" rx="4.23744" cy="31.9266" cx="56.1461"/>
   <rect id="svg_13" stroke-width="5" stroke="black" rx="9.5" height="148.248" width="106.233" y="2.5" x="2.5"/>
- </g>
+ </g> -->
+ 
 </svg>
