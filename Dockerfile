@@ -10,7 +10,7 @@ ENV REACT_APP_POSTHOG_KEY=${REACT_APP_POSTHOG_KEY}
 WORKDIR /app
 COPY ./packages/client/package.json /app/
 COPY ./package-lock.json /app/
-RUN npm install --legacy-peer-deps
+RUN npm install
 COPY . /app
 RUN npm run format:client
 RUN npm run build:client
