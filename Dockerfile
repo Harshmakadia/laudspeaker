@@ -1,6 +1,6 @@
 # To build: docker build -f Dockerfile -t laudspeaker/laudspeaker:latest .
 # To run: docker run -it -p 80:80 --env-file packages/server/.env --rm laudspeaker/laudspeaker:latest
-FROM node:16 as frontend_build
+FROM node:16-alpine as frontend_build
 ARG EXTERNAL_URL
 ARG REACT_APP_POSTHOG_HOST
 ARG REACT_APP_POSTHOG_KEY
@@ -15,7 +15,7 @@ COPY . /app
 RUN npm run format:client
 RUN npm run build:client
 
-FROM node:16 as backend_build
+FROM node:16-alpine as backend_build
 WORKDIR /app
 COPY --from=frontend_build /app/packages/client/package.json /app/
 COPY ./packages/server/package.json /app
